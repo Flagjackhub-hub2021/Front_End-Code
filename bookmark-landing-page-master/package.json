@@ -1,0 +1,27 @@
+{
+  "name": "bookmark-landing-page",
+  "version": "1.0.0",
+  "description": "Challange from Frontend Mentor coded by Fahim.",
+  "main": "public/js/app.js",
+  "scripts": {
+    "build": "mix",
+    "watch": "mix watch",
+    "prod": "mix --production",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "Fahim Anzam Dip",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "gh-pages": "^3.2.0",
+    "laravel-mix": "^6.0.19",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.3"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "alpinejs": "^2.8.2"
+  }
+}
